@@ -1,4 +1,4 @@
 - hosts: all
   tasks:
   - name: Test Task
-    file: path=/tmp/ansible_test.conf state=touch owner=root group=root mode=0600
+    file: path=/tmp/ansible_semaphore_test.conf state=touch owner=root group=root mode=0600
