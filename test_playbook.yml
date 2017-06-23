@@ -1,5 +1,3 @@
-# target hostname or group name
-- hosts: target_servers
-  tasks:
-  - name: Test Task
-    file: path=/tmp/ansible_test.conf state=touch owner=root group=root mode=0600
+tasks:
+- name: Test Task
+  file: path=/tmp/ansible_test.conf state=touch owner=root group=root mode=0600
